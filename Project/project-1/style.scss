@@ -1,0 +1,76 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner-container{
+    background-color: #cacaca;
+}
+
+.banner-column{
+    background-color: #8d8d8d;
+}
+
+.navbar-container{
+    background-color: #262b37;
+}
+
+.about-container{
+    background-color: #00bdbd;
+}
+
+.education-container{
+    background-color: #eeeeee;
+}
+
+.circle-up{
+    background-color: #fb857f;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.project-container{
+    background-color: #2bb3dd
+}
+
+.portfolio-container{
+    background-color: #eeeeee;
+}
+
+.form-container{
+    background-color: #474d5d
+}
+
+.inner-form{
+    background-color: #585f73;
+}
+
+.footer{
+    background-color: #2bb3dd;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
+    color: #2bb3dd
+}
+
+.circle:hover{
+    background-color: #474d5d
+}
+
+
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+// @import "./node_modules/bootstrap/scss/utilities";
+
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
